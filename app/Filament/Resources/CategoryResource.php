@@ -19,6 +19,8 @@ class CategoryResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    protected static ?string $navigationGroup = 'Sales Management';
+
     public static function getCategoryForm() {
         return [
             Forms\Components\TextInput::make('code')
